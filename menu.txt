@@ -1,0 +1,10 @@
+You can use a flash slot to save menu.bas and set it to autoload.
+
+This works across power cycles and even if you remove the SD card.
+
+```
+load "menu.bas"
+flash save 1
+option autorun 1
+```
+
